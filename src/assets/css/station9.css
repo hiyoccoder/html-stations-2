@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#animation {
+    animation: fadein 1s ease-in-out forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
